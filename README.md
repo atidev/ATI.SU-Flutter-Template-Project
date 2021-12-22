@@ -11,7 +11,10 @@
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
 Ссылка на отличную онлайн-документацию по Flutter (содержит туториалы, примеры, ссылки на API документацию и т. д.)
-[online documentation](https://flutter.dev/docs),
+[online documentation](https://flutter.dev/docs)
+
+Оффициальный YouTube канал:
+- https://www.youtube.com/c/flutterdev
 
 Ресурсы на русском;
 - https://www.youtube.com/c/LearnDartFlutter/playlists
