@@ -13,6 +13,10 @@
 Ссылка на отличную онлайн-документацию по Flutter (содержит туториалы, примеры, ссылки на API документацию и т. д.)
 [online documentation](https://flutter.dev/docs),
 
+Ресурсы на русском;
+- https://www.youtube.com/c/LearnDartFlutter/playlists
+- https://www.youtube.com/watch?v=vH5jQpVTVpU&list=PLrnbjo4fMQwYOmdhRY88xPbrMa5qC4nKK
+
 ## Первый запуск
 
 ```bash
