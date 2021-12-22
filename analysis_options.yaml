@@ -1,0 +1,23 @@
+include: package:surf_lint_rules/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.gr.dart"
+    - "**/*.gen.dart"
+    - "**/*.freezed.dart"
+    - "**/*.config.dart"
+    - "**/*.mocks.dart"
+    - "**/arch/dio_packgages_fork/**"
+    - "ios/**"
+  strong-mode:
+    implicit-dynamic: true
+    implicit-casts: false
+  errors:
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+    close_sinks: false
+    comment_references: false
+    one_member_abstracts: false
