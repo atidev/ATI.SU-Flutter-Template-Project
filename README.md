@@ -13,6 +13,15 @@
 Ссылка на отличную онлайн-документацию по Flutter (содержит туториалы, примеры, ссылки на API документацию и т. д.)
 [online documentation](https://flutter.dev/docs),
 
+## Первый запуск
+
+```bash
+flutter pub get
+flutter packages pub run build_runner build --delete-conflicting-outputs
+flutter pub run easy_localization:generate --source-dir assets/translations -f keys -o locale_keys.g.dart
+flutter run
+```
+
 ## Команды для проекта
 
 ### Сборка приложения
