@@ -42,7 +42,6 @@ dependencies:
   get_it: ^7.2.0
   injectable: ^1.5.0
   json_annotation: ^4.4.0
-  json_serializable: ^6.0.1
   logger: ^1.1.0
   path_provider: ^2.0.6
   retry: ^3.1.0
@@ -60,6 +59,7 @@ dev_dependencies:
     sdk: flutter
   freezed: ^1.1.0
   injectable_generator: ^1.5.2
+  json_serializable: ^6.0.1
   surf_lint_rules: ^1.4.0
 
 flutter:
