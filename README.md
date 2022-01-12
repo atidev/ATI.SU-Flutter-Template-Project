@@ -112,17 +112,6 @@ dart pub global activate flutter_gen
 fluttergen
 ```
 
-### Работа с диплинками
-работать с диплинками из полезного - опция открытия QA
-Если запускать на ПК:
-```bash
-adb shell 'am start -W -a android.intent.action.VIEW -c android.intent.category.BROWSABLE -d "deep://flutter.gruzovod.su/#/qa"'
-```
-Если запускать на ферме:
-```bash
-am start -W -a android.intent.action.VIEW -c android.intent.category.BROWSABLE -d "deep://flutter.gruzovod.su/#/qa"
-```
-
 ### Переименование приложения
 
 ```bash
