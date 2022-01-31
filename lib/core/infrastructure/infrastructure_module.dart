@@ -16,7 +16,7 @@ abstract class InfrastructureModule {
       Logger(
         printer: SimplePrinter(),
         filter: ProductionFilter(),
-        level: appEnvironment.logLevel.logeerLevel,
+        level: appEnvironment.logLevel.loggerLevel,
         output: MultiOutput(
           [
             ConsoleOutput(),
@@ -33,7 +33,7 @@ abstract class InfrastructureModule {
         methodCount: 0,
       ),
       filter: ProductionFilter(),
-      level: appEnvironment.logLevel.logeerLevel,
+      level: appEnvironment.logLevel.loggerLevel,
       output: MultiOutput(
         [
           ConsoleOutput(),
