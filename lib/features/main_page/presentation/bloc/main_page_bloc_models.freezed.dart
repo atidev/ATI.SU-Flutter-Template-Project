@@ -1,5 +1,6 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'main_page_bloc_models.dart';
@@ -11,32 +12,7 @@ part of 'main_page_bloc_models.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
-
-/// @nodoc
-class _$MainPageStateTearOff {
-  const _$MainPageStateTearOff();
-
-  MainPageStateEmpty empty() {
-    return const MainPageStateEmpty();
-  }
-
-  MainPageStateData data(
-      {required String descriptionText,
-      required String timeText,
-      required String timeButtonText,
-      required String logoutButtonText}) {
-    return MainPageStateData(
-      descriptionText: descriptionText,
-      timeText: timeText,
-      timeButtonText: timeButtonText,
-      logoutButtonText: logoutButtonText,
-    );
-  }
-}
-
-/// @nodoc
-const $MainPageState = _$MainPageStateTearOff();
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 /// @nodoc
 mixin _$MainPageState {
@@ -104,22 +80,22 @@ class _$MainPageStateCopyWithImpl<$Res>
 }
 
 /// @nodoc
-abstract class $MainPageStateEmptyCopyWith<$Res> {
-  factory $MainPageStateEmptyCopyWith(
-          MainPageStateEmpty value, $Res Function(MainPageStateEmpty) then) =
-      _$MainPageStateEmptyCopyWithImpl<$Res>;
+abstract class _$$MainPageStateEmptyCopyWith<$Res> {
+  factory _$$MainPageStateEmptyCopyWith(_$MainPageStateEmpty value,
+          $Res Function(_$MainPageStateEmpty) then) =
+      __$$MainPageStateEmptyCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$MainPageStateEmptyCopyWithImpl<$Res>
+class __$$MainPageStateEmptyCopyWithImpl<$Res>
     extends _$MainPageStateCopyWithImpl<$Res>
-    implements $MainPageStateEmptyCopyWith<$Res> {
-  _$MainPageStateEmptyCopyWithImpl(
-      MainPageStateEmpty _value, $Res Function(MainPageStateEmpty) _then)
-      : super(_value, (v) => _then(v as MainPageStateEmpty));
+    implements _$$MainPageStateEmptyCopyWith<$Res> {
+  __$$MainPageStateEmptyCopyWithImpl(
+      _$MainPageStateEmpty _value, $Res Function(_$MainPageStateEmpty) _then)
+      : super(_value, (v) => _then(v as _$MainPageStateEmpty));
 
   @override
-  MainPageStateEmpty get _value => super._value as MainPageStateEmpty;
+  _$MainPageStateEmpty get _value => super._value as _$MainPageStateEmpty;
 }
 
 /// @nodoc
@@ -135,7 +111,7 @@ class _$MainPageStateEmpty extends MainPageStateEmpty {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is MainPageStateEmpty);
+        (other.runtimeType == runtimeType && other is _$MainPageStateEmpty);
   }
 
   @override
@@ -216,10 +192,10 @@ abstract class MainPageStateEmpty extends MainPageState {
 }
 
 /// @nodoc
-abstract class $MainPageStateDataCopyWith<$Res> {
-  factory $MainPageStateDataCopyWith(
-          MainPageStateData value, $Res Function(MainPageStateData) then) =
-      _$MainPageStateDataCopyWithImpl<$Res>;
+abstract class _$$MainPageStateDataCopyWith<$Res> {
+  factory _$$MainPageStateDataCopyWith(
+          _$MainPageStateData value, $Res Function(_$MainPageStateData) then) =
+      __$$MainPageStateDataCopyWithImpl<$Res>;
   $Res call(
       {String descriptionText,
       String timeText,
@@ -228,15 +204,15 @@ abstract class $MainPageStateDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$MainPageStateDataCopyWithImpl<$Res>
+class __$$MainPageStateDataCopyWithImpl<$Res>
     extends _$MainPageStateCopyWithImpl<$Res>
-    implements $MainPageStateDataCopyWith<$Res> {
-  _$MainPageStateDataCopyWithImpl(
-      MainPageStateData _value, $Res Function(MainPageStateData) _then)
-      : super(_value, (v) => _then(v as MainPageStateData));
+    implements _$$MainPageStateDataCopyWith<$Res> {
+  __$$MainPageStateDataCopyWithImpl(
+      _$MainPageStateData _value, $Res Function(_$MainPageStateData) _then)
+      : super(_value, (v) => _then(v as _$MainPageStateData));
 
   @override
-  MainPageStateData get _value => super._value as MainPageStateData;
+  _$MainPageStateData get _value => super._value as _$MainPageStateData;
 
   @override
   $Res call({
@@ -245,7 +221,7 @@ class _$MainPageStateDataCopyWithImpl<$Res>
     Object? timeButtonText = freezed,
     Object? logoutButtonText = freezed,
   }) {
-    return _then(MainPageStateData(
+    return _then(_$MainPageStateData(
       descriptionText: descriptionText == freezed
           ? _value.descriptionText
           : descriptionText // ignore: cast_nullable_to_non_nullable
@@ -294,7 +270,7 @@ class _$MainPageStateData extends MainPageStateData {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is MainPageStateData &&
+            other is _$MainPageStateData &&
             const DeepCollectionEquality()
                 .equals(other.descriptionText, descriptionText) &&
             const DeepCollectionEquality().equals(other.timeText, timeText) &&
@@ -314,8 +290,8 @@ class _$MainPageStateData extends MainPageStateData {
 
   @JsonKey(ignore: true)
   @override
-  $MainPageStateDataCopyWith<MainPageStateData> get copyWith =>
-      _$MainPageStateDataCopyWithImpl<MainPageStateData>(this, _$identity);
+  _$$MainPageStateDataCopyWith<_$MainPageStateData> get copyWith =>
+      __$$MainPageStateDataCopyWithImpl<_$MainPageStateData>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -389,40 +365,20 @@ class _$MainPageStateData extends MainPageStateData {
 
 abstract class MainPageStateData extends MainPageState {
   const factory MainPageStateData(
-      {required String descriptionText,
-      required String timeText,
-      required String timeButtonText,
-      required String logoutButtonText}) = _$MainPageStateData;
+      {required final String descriptionText,
+      required final String timeText,
+      required final String timeButtonText,
+      required final String logoutButtonText}) = _$MainPageStateData;
   const MainPageStateData._() : super._();
 
-  String get descriptionText;
-  String get timeText;
-  String get timeButtonText;
-  String get logoutButtonText;
+  String get descriptionText => throw _privateConstructorUsedError;
+  String get timeText => throw _privateConstructorUsedError;
+  String get timeButtonText => throw _privateConstructorUsedError;
+  String get logoutButtonText => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
-  $MainPageStateDataCopyWith<MainPageStateData> get copyWith =>
+  _$$MainPageStateDataCopyWith<_$MainPageStateData> get copyWith =>
       throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class _$MainPageEventTearOff {
-  const _$MainPageEventTearOff();
-
-  MainPageEventInit init() {
-    return const MainPageEventInit();
-  }
-
-  MainPageEventUnauthorize unauthorize() {
-    return const MainPageEventUnauthorize();
-  }
-
-  MainPageEventCheckTime checkTime() {
-    return const MainPageEventCheckTime();
-  }
-}
-
-/// @nodoc
-const $MainPageEvent = _$MainPageEventTearOff();
 
 /// @nodoc
 mixin _$MainPageEvent {
@@ -490,22 +446,22 @@ class _$MainPageEventCopyWithImpl<$Res>
 }
 
 /// @nodoc
-abstract class $MainPageEventInitCopyWith<$Res> {
-  factory $MainPageEventInitCopyWith(
-          MainPageEventInit value, $Res Function(MainPageEventInit) then) =
-      _$MainPageEventInitCopyWithImpl<$Res>;
+abstract class _$$MainPageEventInitCopyWith<$Res> {
+  factory _$$MainPageEventInitCopyWith(
+          _$MainPageEventInit value, $Res Function(_$MainPageEventInit) then) =
+      __$$MainPageEventInitCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$MainPageEventInitCopyWithImpl<$Res>
+class __$$MainPageEventInitCopyWithImpl<$Res>
     extends _$MainPageEventCopyWithImpl<$Res>
-    implements $MainPageEventInitCopyWith<$Res> {
-  _$MainPageEventInitCopyWithImpl(
-      MainPageEventInit _value, $Res Function(MainPageEventInit) _then)
-      : super(_value, (v) => _then(v as MainPageEventInit));
+    implements _$$MainPageEventInitCopyWith<$Res> {
+  __$$MainPageEventInitCopyWithImpl(
+      _$MainPageEventInit _value, $Res Function(_$MainPageEventInit) _then)
+      : super(_value, (v) => _then(v as _$MainPageEventInit));
 
   @override
-  MainPageEventInit get _value => super._value as MainPageEventInit;
+  _$MainPageEventInit get _value => super._value as _$MainPageEventInit;
 }
 
 /// @nodoc
@@ -521,7 +477,7 @@ class _$MainPageEventInit implements MainPageEventInit {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is MainPageEventInit);
+        (other.runtimeType == runtimeType && other is _$MainPageEventInit);
   }
 
   @override
@@ -601,23 +557,23 @@ abstract class MainPageEventInit implements MainPageEvent {
 }
 
 /// @nodoc
-abstract class $MainPageEventUnauthorizeCopyWith<$Res> {
-  factory $MainPageEventUnauthorizeCopyWith(MainPageEventUnauthorize value,
-          $Res Function(MainPageEventUnauthorize) then) =
-      _$MainPageEventUnauthorizeCopyWithImpl<$Res>;
+abstract class _$$MainPageEventUnauthorizeCopyWith<$Res> {
+  factory _$$MainPageEventUnauthorizeCopyWith(_$MainPageEventUnauthorize value,
+          $Res Function(_$MainPageEventUnauthorize) then) =
+      __$$MainPageEventUnauthorizeCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$MainPageEventUnauthorizeCopyWithImpl<$Res>
+class __$$MainPageEventUnauthorizeCopyWithImpl<$Res>
     extends _$MainPageEventCopyWithImpl<$Res>
-    implements $MainPageEventUnauthorizeCopyWith<$Res> {
-  _$MainPageEventUnauthorizeCopyWithImpl(MainPageEventUnauthorize _value,
-      $Res Function(MainPageEventUnauthorize) _then)
-      : super(_value, (v) => _then(v as MainPageEventUnauthorize));
+    implements _$$MainPageEventUnauthorizeCopyWith<$Res> {
+  __$$MainPageEventUnauthorizeCopyWithImpl(_$MainPageEventUnauthorize _value,
+      $Res Function(_$MainPageEventUnauthorize) _then)
+      : super(_value, (v) => _then(v as _$MainPageEventUnauthorize));
 
   @override
-  MainPageEventUnauthorize get _value =>
-      super._value as MainPageEventUnauthorize;
+  _$MainPageEventUnauthorize get _value =>
+      super._value as _$MainPageEventUnauthorize;
 }
 
 /// @nodoc
@@ -633,7 +589,8 @@ class _$MainPageEventUnauthorize implements MainPageEventUnauthorize {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is MainPageEventUnauthorize);
+        (other.runtimeType == runtimeType &&
+            other is _$MainPageEventUnauthorize);
   }
 
   @override
@@ -713,22 +670,23 @@ abstract class MainPageEventUnauthorize implements MainPageEvent {
 }
 
 /// @nodoc
-abstract class $MainPageEventCheckTimeCopyWith<$Res> {
-  factory $MainPageEventCheckTimeCopyWith(MainPageEventCheckTime value,
-          $Res Function(MainPageEventCheckTime) then) =
-      _$MainPageEventCheckTimeCopyWithImpl<$Res>;
+abstract class _$$MainPageEventCheckTimeCopyWith<$Res> {
+  factory _$$MainPageEventCheckTimeCopyWith(_$MainPageEventCheckTime value,
+          $Res Function(_$MainPageEventCheckTime) then) =
+      __$$MainPageEventCheckTimeCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$MainPageEventCheckTimeCopyWithImpl<$Res>
+class __$$MainPageEventCheckTimeCopyWithImpl<$Res>
     extends _$MainPageEventCopyWithImpl<$Res>
-    implements $MainPageEventCheckTimeCopyWith<$Res> {
-  _$MainPageEventCheckTimeCopyWithImpl(MainPageEventCheckTime _value,
-      $Res Function(MainPageEventCheckTime) _then)
-      : super(_value, (v) => _then(v as MainPageEventCheckTime));
+    implements _$$MainPageEventCheckTimeCopyWith<$Res> {
+  __$$MainPageEventCheckTimeCopyWithImpl(_$MainPageEventCheckTime _value,
+      $Res Function(_$MainPageEventCheckTime) _then)
+      : super(_value, (v) => _then(v as _$MainPageEventCheckTime));
 
   @override
-  MainPageEventCheckTime get _value => super._value as MainPageEventCheckTime;
+  _$MainPageEventCheckTime get _value =>
+      super._value as _$MainPageEventCheckTime;
 }
 
 /// @nodoc
@@ -744,7 +702,7 @@ class _$MainPageEventCheckTime implements MainPageEventCheckTime {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is MainPageEventCheckTime);
+        (other.runtimeType == runtimeType && other is _$MainPageEventCheckTime);
   }
 
   @override
@@ -824,23 +782,8 @@ abstract class MainPageEventCheckTime implements MainPageEvent {
 }
 
 /// @nodoc
-class _$MainPageSRTearOff {
-  const _$MainPageSRTearOff();
-
-  _ShowSnackbar showSnackbar({required String text}) {
-    return _ShowSnackbar(
-      text: text,
-    );
-  }
-}
-
-/// @nodoc
-const $MainPageSR = _$MainPageSRTearOff();
-
-/// @nodoc
 mixin _$MainPageSR {
   String get text => throw _privateConstructorUsedError;
-
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(String text) showSnackbar,
@@ -909,30 +852,30 @@ class _$MainPageSRCopyWithImpl<$Res> implements $MainPageSRCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class _$ShowSnackbarCopyWith<$Res>
+abstract class _$$_ShowSnackbarCopyWith<$Res>
     implements $MainPageSRCopyWith<$Res> {
-  factory _$ShowSnackbarCopyWith(
-          _ShowSnackbar value, $Res Function(_ShowSnackbar) then) =
-      __$ShowSnackbarCopyWithImpl<$Res>;
+  factory _$$_ShowSnackbarCopyWith(
+          _$_ShowSnackbar value, $Res Function(_$_ShowSnackbar) then) =
+      __$$_ShowSnackbarCopyWithImpl<$Res>;
   @override
   $Res call({String text});
 }
 
 /// @nodoc
-class __$ShowSnackbarCopyWithImpl<$Res> extends _$MainPageSRCopyWithImpl<$Res>
-    implements _$ShowSnackbarCopyWith<$Res> {
-  __$ShowSnackbarCopyWithImpl(
-      _ShowSnackbar _value, $Res Function(_ShowSnackbar) _then)
-      : super(_value, (v) => _then(v as _ShowSnackbar));
+class __$$_ShowSnackbarCopyWithImpl<$Res> extends _$MainPageSRCopyWithImpl<$Res>
+    implements _$$_ShowSnackbarCopyWith<$Res> {
+  __$$_ShowSnackbarCopyWithImpl(
+      _$_ShowSnackbar _value, $Res Function(_$_ShowSnackbar) _then)
+      : super(_value, (v) => _then(v as _$_ShowSnackbar));
 
   @override
-  _ShowSnackbar get _value => super._value as _ShowSnackbar;
+  _$_ShowSnackbar get _value => super._value as _$_ShowSnackbar;
 
   @override
   $Res call({
     Object? text = freezed,
   }) {
-    return _then(_ShowSnackbar(
+    return _then(_$_ShowSnackbar(
       text: text == freezed
           ? _value.text
           : text // ignore: cast_nullable_to_non_nullable
@@ -958,7 +901,7 @@ class _$_ShowSnackbar implements _ShowSnackbar {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _ShowSnackbar &&
+            other is _$_ShowSnackbar &&
             const DeepCollectionEquality().equals(other.text, text));
   }
 
@@ -968,8 +911,8 @@ class _$_ShowSnackbar implements _ShowSnackbar {
 
   @JsonKey(ignore: true)
   @override
-  _$ShowSnackbarCopyWith<_ShowSnackbar> get copyWith =>
-      __$ShowSnackbarCopyWithImpl<_ShowSnackbar>(this, _$identity);
+  _$$_ShowSnackbarCopyWith<_$_ShowSnackbar> get copyWith =>
+      __$$_ShowSnackbarCopyWithImpl<_$_ShowSnackbar>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -1029,12 +972,12 @@ class _$_ShowSnackbar implements _ShowSnackbar {
 }
 
 abstract class _ShowSnackbar implements MainPageSR {
-  const factory _ShowSnackbar({required String text}) = _$_ShowSnackbar;
+  const factory _ShowSnackbar({required final String text}) = _$_ShowSnackbar;
 
   @override
-  String get text;
+  String get text => throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
-  _$ShowSnackbarCopyWith<_ShowSnackbar> get copyWith =>
+  _$$_ShowSnackbarCopyWith<_$_ShowSnackbar> get copyWith =>
       throw _privateConstructorUsedError;
 }

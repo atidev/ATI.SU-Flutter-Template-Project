@@ -1,5 +1,6 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'splash_bloc_models.dart';
@@ -11,19 +12,7 @@ part of 'splash_bloc_models.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
-
-/// @nodoc
-class _$SplashEventTearOff {
-  const _$SplashEventTearOff();
-
-  SplashEventInit init() {
-    return const SplashEventInit();
-  }
-}
-
-/// @nodoc
-const $SplashEvent = _$SplashEventTearOff();
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 /// @nodoc
 mixin _$SplashEvent {
@@ -78,22 +67,22 @@ class _$SplashEventCopyWithImpl<$Res> implements $SplashEventCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class $SplashEventInitCopyWith<$Res> {
-  factory $SplashEventInitCopyWith(
-          SplashEventInit value, $Res Function(SplashEventInit) then) =
-      _$SplashEventInitCopyWithImpl<$Res>;
+abstract class _$$SplashEventInitCopyWith<$Res> {
+  factory _$$SplashEventInitCopyWith(
+          _$SplashEventInit value, $Res Function(_$SplashEventInit) then) =
+      __$$SplashEventInitCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$SplashEventInitCopyWithImpl<$Res>
+class __$$SplashEventInitCopyWithImpl<$Res>
     extends _$SplashEventCopyWithImpl<$Res>
-    implements $SplashEventInitCopyWith<$Res> {
-  _$SplashEventInitCopyWithImpl(
-      SplashEventInit _value, $Res Function(SplashEventInit) _then)
-      : super(_value, (v) => _then(v as SplashEventInit));
+    implements _$$SplashEventInitCopyWith<$Res> {
+  __$$SplashEventInitCopyWithImpl(
+      _$SplashEventInit _value, $Res Function(_$SplashEventInit) _then)
+      : super(_value, (v) => _then(v as _$SplashEventInit));
 
   @override
-  SplashEventInit get _value => super._value as SplashEventInit;
+  _$SplashEventInit get _value => super._value as _$SplashEventInit;
 }
 
 /// @nodoc
@@ -109,7 +98,7 @@ class _$SplashEventInit implements SplashEventInit {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is SplashEventInit);
+        (other.runtimeType == runtimeType && other is _$SplashEventInit);
   }
 
   @override
@@ -177,18 +166,6 @@ abstract class SplashEventInit implements SplashEvent {
 }
 
 /// @nodoc
-class _$SplashSRTearOff {
-  const _$SplashSRTearOff();
-
-  _LoadFinished loadFinished() {
-    return const _LoadFinished();
-  }
-}
-
-/// @nodoc
-const $SplashSR = _$SplashSRTearOff();
-
-/// @nodoc
 mixin _$SplashSR {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
@@ -240,21 +217,21 @@ class _$SplashSRCopyWithImpl<$Res> implements $SplashSRCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class _$LoadFinishedCopyWith<$Res> {
-  factory _$LoadFinishedCopyWith(
-          _LoadFinished value, $Res Function(_LoadFinished) then) =
-      __$LoadFinishedCopyWithImpl<$Res>;
+abstract class _$$_LoadFinishedCopyWith<$Res> {
+  factory _$$_LoadFinishedCopyWith(
+          _$_LoadFinished value, $Res Function(_$_LoadFinished) then) =
+      __$$_LoadFinishedCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$LoadFinishedCopyWithImpl<$Res> extends _$SplashSRCopyWithImpl<$Res>
-    implements _$LoadFinishedCopyWith<$Res> {
-  __$LoadFinishedCopyWithImpl(
-      _LoadFinished _value, $Res Function(_LoadFinished) _then)
-      : super(_value, (v) => _then(v as _LoadFinished));
+class __$$_LoadFinishedCopyWithImpl<$Res> extends _$SplashSRCopyWithImpl<$Res>
+    implements _$$_LoadFinishedCopyWith<$Res> {
+  __$$_LoadFinishedCopyWithImpl(
+      _$_LoadFinished _value, $Res Function(_$_LoadFinished) _then)
+      : super(_value, (v) => _then(v as _$_LoadFinished));
 
   @override
-  _LoadFinished get _value => super._value as _LoadFinished;
+  _$_LoadFinished get _value => super._value as _$_LoadFinished;
 }
 
 /// @nodoc
@@ -270,7 +247,7 @@ class _$_LoadFinished implements _LoadFinished {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _LoadFinished);
+        (other.runtimeType == runtimeType && other is _$_LoadFinished);
   }
 
   @override

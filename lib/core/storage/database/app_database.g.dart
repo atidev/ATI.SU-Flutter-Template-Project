@@ -6,7 +6,7 @@ part of 'app_database.dart';
 // MoorGenerator
 // **************************************************************************
 
-// ignore_for_file: unnecessary_brace_in_string_interps, unnecessary_this
+// ignore_for_file: type=lint
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(SqlTypeSystem.defaultInstance, e);
   @override

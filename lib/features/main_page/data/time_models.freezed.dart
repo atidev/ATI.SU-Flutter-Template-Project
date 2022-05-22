@@ -1,5 +1,6 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'time_models.dart';
@@ -11,21 +12,7 @@ part of 'time_models.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
-
-/// @nodoc
-class _$TimeModelTearOff {
-  const _$TimeModelTearOff();
-
-  _TimeModel call({required DateTime currentDateTime}) {
-    return _TimeModel(
-      currentDateTime: currentDateTime,
-    );
-  }
-}
-
-/// @nodoc
-const $TimeModel = _$TimeModelTearOff();
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 /// @nodoc
 mixin _$TimeModel {
@@ -65,28 +52,29 @@ class _$TimeModelCopyWithImpl<$Res> implements $TimeModelCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class _$TimeModelCopyWith<$Res> implements $TimeModelCopyWith<$Res> {
-  factory _$TimeModelCopyWith(
-          _TimeModel value, $Res Function(_TimeModel) then) =
-      __$TimeModelCopyWithImpl<$Res>;
+abstract class _$$_TimeModelCopyWith<$Res> implements $TimeModelCopyWith<$Res> {
+  factory _$$_TimeModelCopyWith(
+          _$_TimeModel value, $Res Function(_$_TimeModel) then) =
+      __$$_TimeModelCopyWithImpl<$Res>;
   @override
   $Res call({DateTime currentDateTime});
 }
 
 /// @nodoc
-class __$TimeModelCopyWithImpl<$Res> extends _$TimeModelCopyWithImpl<$Res>
-    implements _$TimeModelCopyWith<$Res> {
-  __$TimeModelCopyWithImpl(_TimeModel _value, $Res Function(_TimeModel) _then)
-      : super(_value, (v) => _then(v as _TimeModel));
+class __$$_TimeModelCopyWithImpl<$Res> extends _$TimeModelCopyWithImpl<$Res>
+    implements _$$_TimeModelCopyWith<$Res> {
+  __$$_TimeModelCopyWithImpl(
+      _$_TimeModel _value, $Res Function(_$_TimeModel) _then)
+      : super(_value, (v) => _then(v as _$_TimeModel));
 
   @override
-  _TimeModel get _value => super._value as _TimeModel;
+  _$_TimeModel get _value => super._value as _$_TimeModel;
 
   @override
   $Res call({
     Object? currentDateTime = freezed,
   }) {
-    return _then(_TimeModel(
+    return _then(_$_TimeModel(
       currentDateTime: currentDateTime == freezed
           ? _value.currentDateTime
           : currentDateTime // ignore: cast_nullable_to_non_nullable
@@ -112,7 +100,7 @@ class _$_TimeModel implements _TimeModel {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _TimeModel &&
+            other is _$_TimeModel &&
             const DeepCollectionEquality()
                 .equals(other.currentDateTime, currentDateTime));
   }
@@ -123,47 +111,25 @@ class _$_TimeModel implements _TimeModel {
 
   @JsonKey(ignore: true)
   @override
-  _$TimeModelCopyWith<_TimeModel> get copyWith =>
-      __$TimeModelCopyWithImpl<_TimeModel>(this, _$identity);
+  _$$_TimeModelCopyWith<_$_TimeModel> get copyWith =>
+      __$$_TimeModelCopyWithImpl<_$_TimeModel>(this, _$identity);
 }
 
 abstract class _TimeModel implements TimeModel {
-  const factory _TimeModel({required DateTime currentDateTime}) = _$_TimeModel;
+  const factory _TimeModel({required final DateTime currentDateTime}) =
+      _$_TimeModel;
 
   @override
-  DateTime get currentDateTime;
+  DateTime get currentDateTime => throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
-  _$TimeModelCopyWith<_TimeModel> get copyWith =>
+  _$$_TimeModelCopyWith<_$_TimeModel> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 TimeResponse _$TimeResponseFromJson(Map<String, dynamic> json) {
   return _TimeResponse.fromJson(json);
 }
-
-/// @nodoc
-class _$TimeResponseTearOff {
-  const _$TimeResponseTearOff();
-
-  _TimeResponse call(
-      {@JsonKey(name: 'currentDateTime')
-          required DateTime currentDateTime,
-      @JsonKey(name: 'serviceResponse')
-          required Map<String, dynamic>? serviceResponse}) {
-    return _TimeResponse(
-      currentDateTime: currentDateTime,
-      serviceResponse: serviceResponse,
-    );
-  }
-
-  TimeResponse fromJson(Map<String, Object?> json) {
-    return TimeResponse.fromJson(json);
-  }
-}
-
-/// @nodoc
-const $TimeResponse = _$TimeResponseTearOff();
 
 /// @nodoc
 mixin _$TimeResponse {
@@ -216,11 +182,11 @@ class _$TimeResponseCopyWithImpl<$Res> implements $TimeResponseCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class _$TimeResponseCopyWith<$Res>
+abstract class _$$_TimeResponseCopyWith<$Res>
     implements $TimeResponseCopyWith<$Res> {
-  factory _$TimeResponseCopyWith(
-          _TimeResponse value, $Res Function(_TimeResponse) then) =
-      __$TimeResponseCopyWithImpl<$Res>;
+  factory _$$_TimeResponseCopyWith(
+          _$_TimeResponse value, $Res Function(_$_TimeResponse) then) =
+      __$$_TimeResponseCopyWithImpl<$Res>;
   @override
   $Res call(
       {@JsonKey(name: 'currentDateTime') DateTime currentDateTime,
@@ -228,27 +194,28 @@ abstract class _$TimeResponseCopyWith<$Res>
 }
 
 /// @nodoc
-class __$TimeResponseCopyWithImpl<$Res> extends _$TimeResponseCopyWithImpl<$Res>
-    implements _$TimeResponseCopyWith<$Res> {
-  __$TimeResponseCopyWithImpl(
-      _TimeResponse _value, $Res Function(_TimeResponse) _then)
-      : super(_value, (v) => _then(v as _TimeResponse));
+class __$$_TimeResponseCopyWithImpl<$Res>
+    extends _$TimeResponseCopyWithImpl<$Res>
+    implements _$$_TimeResponseCopyWith<$Res> {
+  __$$_TimeResponseCopyWithImpl(
+      _$_TimeResponse _value, $Res Function(_$_TimeResponse) _then)
+      : super(_value, (v) => _then(v as _$_TimeResponse));
 
   @override
-  _TimeResponse get _value => super._value as _TimeResponse;
+  _$_TimeResponse get _value => super._value as _$_TimeResponse;
 
   @override
   $Res call({
     Object? currentDateTime = freezed,
     Object? serviceResponse = freezed,
   }) {
-    return _then(_TimeResponse(
+    return _then(_$_TimeResponse(
       currentDateTime: currentDateTime == freezed
           ? _value.currentDateTime
           : currentDateTime // ignore: cast_nullable_to_non_nullable
               as DateTime,
       serviceResponse: serviceResponse == freezed
-          ? _value.serviceResponse
+          ? _value._serviceResponse
           : serviceResponse // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
@@ -259,8 +226,11 @@ class __$TimeResponseCopyWithImpl<$Res> extends _$TimeResponseCopyWithImpl<$Res>
 @JsonSerializable()
 class _$_TimeResponse implements _TimeResponse {
   const _$_TimeResponse(
-      {@JsonKey(name: 'currentDateTime') required this.currentDateTime,
-      @JsonKey(name: 'serviceResponse') required this.serviceResponse});
+      {@JsonKey(name: 'currentDateTime')
+          required this.currentDateTime,
+      @JsonKey(name: 'serviceResponse')
+          required final Map<String, dynamic>? serviceResponse})
+      : _serviceResponse = serviceResponse;
 
   factory _$_TimeResponse.fromJson(Map<String, dynamic> json) =>
       _$$_TimeResponseFromJson(json);
@@ -268,9 +238,15 @@ class _$_TimeResponse implements _TimeResponse {
   @override
   @JsonKey(name: 'currentDateTime')
   final DateTime currentDateTime;
+  final Map<String, dynamic>? _serviceResponse;
   @override
   @JsonKey(name: 'serviceResponse')
-  final Map<String, dynamic>? serviceResponse;
+  Map<String, dynamic>? get serviceResponse {
+    final value = _serviceResponse;
+    if (value == null) return null;
+    // ignore: implicit_dynamic_type
+    return EqualUnmodifiableMapView(value);
+  }
 
   @override
   String toString() {
@@ -281,23 +257,24 @@ class _$_TimeResponse implements _TimeResponse {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _TimeResponse &&
+            other is _$_TimeResponse &&
             const DeepCollectionEquality()
                 .equals(other.currentDateTime, currentDateTime) &&
             const DeepCollectionEquality()
-                .equals(other.serviceResponse, serviceResponse));
+                .equals(other._serviceResponse, _serviceResponse));
   }
 
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
       const DeepCollectionEquality().hash(currentDateTime),
-      const DeepCollectionEquality().hash(serviceResponse));
+      const DeepCollectionEquality().hash(_serviceResponse));
 
   @JsonKey(ignore: true)
   @override
-  _$TimeResponseCopyWith<_TimeResponse> get copyWith =>
-      __$TimeResponseCopyWithImpl<_TimeResponse>(this, _$identity);
+  _$$_TimeResponseCopyWith<_$_TimeResponse> get copyWith =>
+      __$$_TimeResponseCopyWithImpl<_$_TimeResponse>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
@@ -307,22 +284,24 @@ class _$_TimeResponse implements _TimeResponse {
 
 abstract class _TimeResponse implements TimeResponse {
   const factory _TimeResponse(
-      {@JsonKey(name: 'currentDateTime')
-          required DateTime currentDateTime,
-      @JsonKey(name: 'serviceResponse')
-          required Map<String, dynamic>? serviceResponse}) = _$_TimeResponse;
+          {@JsonKey(name: 'currentDateTime')
+              required final DateTime currentDateTime,
+          @JsonKey(name: 'serviceResponse')
+              required final Map<String, dynamic>? serviceResponse}) =
+      _$_TimeResponse;
 
   factory _TimeResponse.fromJson(Map<String, dynamic> json) =
       _$_TimeResponse.fromJson;
 
   @override
   @JsonKey(name: 'currentDateTime')
-  DateTime get currentDateTime;
+  DateTime get currentDateTime => throw _privateConstructorUsedError;
   @override
   @JsonKey(name: 'serviceResponse')
-  Map<String, dynamic>? get serviceResponse;
+  Map<String, dynamic>? get serviceResponse =>
+      throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
-  _$TimeResponseCopyWith<_TimeResponse> get copyWith =>
+  _$$_TimeResponseCopyWith<_$_TimeResponse> get copyWith =>
       throw _privateConstructorUsedError;
 }

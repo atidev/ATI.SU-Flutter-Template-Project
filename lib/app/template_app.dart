@@ -90,10 +90,10 @@ class _ThemedApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme(
           primary: appTheme.colorTheme.accent,
-          primaryVariant: appTheme.colorTheme.accentVariant,
+          primaryContainer: appTheme.colorTheme.accentVariant,
           onPrimary: appTheme.colorTheme.onAccent,
           secondary: appTheme.colorTheme.secondaryAccent,
-          secondaryVariant: appTheme.colorTheme.secondaryAccentVariant,
+          secondaryContainer: appTheme.colorTheme.secondaryAccentVariant,
           onSecondary: appTheme.colorTheme.onSecondary,
           surface: appTheme.colorTheme.backgroundSurface,
           onSurface: appTheme.colorTheme.onSurface,

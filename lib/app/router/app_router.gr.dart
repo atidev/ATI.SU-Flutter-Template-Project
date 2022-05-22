@@ -7,6 +7,8 @@
 // **************************************************************************
 // AutoRouteGenerator
 // **************************************************************************
+//
+// ignore_for_file: type=lint
 
 import 'package:ati_su_flutter_template_project/app/router/guards/auth_guard.dart'
     as _i7;
