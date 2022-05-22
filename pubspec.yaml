@@ -54,13 +54,12 @@ dev_dependencies:
   build_runner: ^2.1.11
   drift_dev: ^1.6.0
   flutter_gen_runner: ^4.1.6
-  flutter_lints: ^1.0.4
   flutter_test:
     sdk: flutter
   freezed: ^2.0.3+1
   injectable_generator: ^1.5.2
   json_serializable: ^6.2.0
-  surf_lint_rules: ^1.4.0
+  surf_lint_rules: ^1.5.0
 
 flutter:
   uses-material-design: true
