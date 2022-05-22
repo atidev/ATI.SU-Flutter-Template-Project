@@ -73,7 +73,7 @@ class LightColorTheme implements AppColorTheme {
 
   //============================== Customization color tokens ==============================
   @override
-  Color get accent => AppPallete.lightBlu500;
+  Color get accent => AppPallete.lightBlue500;
   @override
   Color get accentVariant => AppPallete.lightBlue900;
   @override
