@@ -68,7 +68,7 @@ class DriftMigrator<Db> {
   static Future<void> _defaultOnCreate(Migrator m) => m.createAll();
 
   /// Метод миграции [database]
-  Future<int?> _migrate(Db database, int schemaVersion, Migrator m) async {
+  Future<void> _migrate(Db database, int schemaVersion, Migrator m) async {
     final migrationLogic = migrationLogics.firstWhereOrNull((migrator) => migrator.schemeVersion == schemaVersion);
 
     if (migrationLogic == null) {
