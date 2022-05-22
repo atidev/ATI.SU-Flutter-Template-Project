@@ -91,7 +91,7 @@ class DebugPaintOptions with _$DebugPaintOptions {
 
 /// Расширения над [AppLogLevel] для работы с [Logger] и работы с переменными окружения
 extension AppLogLevels on AppLogLevel {
-  Level get logeerLevel {
+  Level get loggerLevel {
     switch (this) {
       case AppLogLevel.verbose:
         return Level.verbose;
