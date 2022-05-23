@@ -25,5 +25,5 @@ class AuthGuard extends AutoRedirectGuard {
   }
 
   @override
-  Future<bool> canNavigate(RouteMatch route) async => false;
+  Future<bool> canNavigate(RouteMatch route) async => isAuthorized();
 }
