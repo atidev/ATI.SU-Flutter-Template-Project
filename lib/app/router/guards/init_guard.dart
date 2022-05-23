@@ -7,7 +7,7 @@ typedef IsInited = bool Function();
 /// Интерцептор роутинга ограничивающий доступ к страницам до их инициализации
 ///
 /// Добавляет в стэк Splash-Screen при попытке перехода на страницу, защищенную этим гвардом, до инициализации приложения
-class InitGuard extends AutoRouteGuard {
+class InitGuard extends AutoRedirectGuard {
   @protected
   final IsInited isInited;
 
@@ -18,12 +18,12 @@ class InitGuard extends AutoRouteGuard {
   @override
   void onNavigation(NavigationResolver resolver, StackRouter router) {
     if (!isInited()) {
-      router.push(SplashRoute(onLoad: () {
-        resolver.next();
-        router.removeWhere((routeData) => routeData.name == SplashRoute.name);
-      }));
+      router.push(SplashRoute(onLoad: () => resolver.next()));
     } else {
       resolver.next();
     }
   }
+
+  @override
+  Future<bool> canNavigate(RouteMatch route) async => isInited();
 }

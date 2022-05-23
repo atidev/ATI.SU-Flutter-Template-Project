@@ -1,5 +1,6 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'app_environment.dart';
@@ -11,44 +12,11 @@ part of 'app_environment.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 AppEnvironment _$AppEnvironmentFromJson(Map<String, dynamic> json) {
   return _AppEnvironment.fromJson(json);
 }
-
-/// @nodoc
-class _$AppEnvironmentTearOff {
-  const _$AppEnvironmentTearOff();
-
-  _AppEnvironment call(
-      {required BuildType buildType,
-      required DebugOptions debugOptions,
-      required DebugPaintOptions debugPaintOptions,
-      required AppLogLevel logLevel,
-      required bool enableEasyLocalizationLogs,
-      required bool enableBlocLogs,
-      required bool enableRoutingLogs,
-      required bool enableDioLogs}) {
-    return _AppEnvironment(
-      buildType: buildType,
-      debugOptions: debugOptions,
-      debugPaintOptions: debugPaintOptions,
-      logLevel: logLevel,
-      enableEasyLocalizationLogs: enableEasyLocalizationLogs,
-      enableBlocLogs: enableBlocLogs,
-      enableRoutingLogs: enableRoutingLogs,
-      enableDioLogs: enableDioLogs,
-    );
-  }
-
-  AppEnvironment fromJson(Map<String, Object?> json) {
-    return AppEnvironment.fromJson(json);
-  }
-}
-
-/// @nodoc
-const $AppEnvironment = _$AppEnvironmentTearOff();
 
 /// @nodoc
 mixin _$AppEnvironment {
@@ -158,11 +126,11 @@ class _$AppEnvironmentCopyWithImpl<$Res>
 }
 
 /// @nodoc
-abstract class _$AppEnvironmentCopyWith<$Res>
+abstract class _$$_AppEnvironmentCopyWith<$Res>
     implements $AppEnvironmentCopyWith<$Res> {
-  factory _$AppEnvironmentCopyWith(
-          _AppEnvironment value, $Res Function(_AppEnvironment) then) =
-      __$AppEnvironmentCopyWithImpl<$Res>;
+  factory _$$_AppEnvironmentCopyWith(
+          _$_AppEnvironment value, $Res Function(_$_AppEnvironment) then) =
+      __$$_AppEnvironmentCopyWithImpl<$Res>;
   @override
   $Res call(
       {BuildType buildType,
@@ -181,15 +149,15 @@ abstract class _$AppEnvironmentCopyWith<$Res>
 }
 
 /// @nodoc
-class __$AppEnvironmentCopyWithImpl<$Res>
+class __$$_AppEnvironmentCopyWithImpl<$Res>
     extends _$AppEnvironmentCopyWithImpl<$Res>
-    implements _$AppEnvironmentCopyWith<$Res> {
-  __$AppEnvironmentCopyWithImpl(
-      _AppEnvironment _value, $Res Function(_AppEnvironment) _then)
-      : super(_value, (v) => _then(v as _AppEnvironment));
+    implements _$$_AppEnvironmentCopyWith<$Res> {
+  __$$_AppEnvironmentCopyWithImpl(
+      _$_AppEnvironment _value, $Res Function(_$_AppEnvironment) _then)
+      : super(_value, (v) => _then(v as _$_AppEnvironment));
 
   @override
-  _AppEnvironment get _value => super._value as _AppEnvironment;
+  _$_AppEnvironment get _value => super._value as _$_AppEnvironment;
 
   @override
   $Res call({
@@ -202,7 +170,7 @@ class __$AppEnvironmentCopyWithImpl<$Res>
     Object? enableRoutingLogs = freezed,
     Object? enableDioLogs = freezed,
   }) {
-    return _then(_AppEnvironment(
+    return _then(_$_AppEnvironment(
       buildType: buildType == freezed
           ? _value.buildType
           : buildType // ignore: cast_nullable_to_non_nullable
@@ -281,7 +249,7 @@ class _$_AppEnvironment implements _AppEnvironment {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _AppEnvironment &&
+            other is _$_AppEnvironment &&
             const DeepCollectionEquality().equals(other.buildType, buildType) &&
             const DeepCollectionEquality()
                 .equals(other.debugOptions, debugOptions) &&
@@ -298,6 +266,7 @@ class _$_AppEnvironment implements _AppEnvironment {
                 .equals(other.enableDioLogs, enableDioLogs));
   }
 
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -312,8 +281,8 @@ class _$_AppEnvironment implements _AppEnvironment {
 
   @JsonKey(ignore: true)
   @override
-  _$AppEnvironmentCopyWith<_AppEnvironment> get copyWith =>
-      __$AppEnvironmentCopyWithImpl<_AppEnvironment>(this, _$identity);
+  _$$_AppEnvironmentCopyWith<_$_AppEnvironment> get copyWith =>
+      __$$_AppEnvironmentCopyWithImpl<_$_AppEnvironment>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
@@ -323,72 +292,43 @@ class _$_AppEnvironment implements _AppEnvironment {
 
 abstract class _AppEnvironment implements AppEnvironment {
   const factory _AppEnvironment(
-      {required BuildType buildType,
-      required DebugOptions debugOptions,
-      required DebugPaintOptions debugPaintOptions,
-      required AppLogLevel logLevel,
-      required bool enableEasyLocalizationLogs,
-      required bool enableBlocLogs,
-      required bool enableRoutingLogs,
-      required bool enableDioLogs}) = _$_AppEnvironment;
+      {required final BuildType buildType,
+      required final DebugOptions debugOptions,
+      required final DebugPaintOptions debugPaintOptions,
+      required final AppLogLevel logLevel,
+      required final bool enableEasyLocalizationLogs,
+      required final bool enableBlocLogs,
+      required final bool enableRoutingLogs,
+      required final bool enableDioLogs}) = _$_AppEnvironment;
 
   factory _AppEnvironment.fromJson(Map<String, dynamic> json) =
       _$_AppEnvironment.fromJson;
 
   @override
-  BuildType get buildType;
+  BuildType get buildType => throw _privateConstructorUsedError;
   @override
-  DebugOptions get debugOptions;
+  DebugOptions get debugOptions => throw _privateConstructorUsedError;
   @override
-  DebugPaintOptions get debugPaintOptions;
+  DebugPaintOptions get debugPaintOptions => throw _privateConstructorUsedError;
   @override
-  AppLogLevel get logLevel;
+  AppLogLevel get logLevel => throw _privateConstructorUsedError;
   @override
-  bool get enableEasyLocalizationLogs;
+  bool get enableEasyLocalizationLogs => throw _privateConstructorUsedError;
   @override
-  bool get enableBlocLogs;
+  bool get enableBlocLogs => throw _privateConstructorUsedError;
   @override
-  bool get enableRoutingLogs;
+  bool get enableRoutingLogs => throw _privateConstructorUsedError;
   @override
-  bool get enableDioLogs;
+  bool get enableDioLogs => throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
-  _$AppEnvironmentCopyWith<_AppEnvironment> get copyWith =>
+  _$$_AppEnvironmentCopyWith<_$_AppEnvironment> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 DebugOptions _$DebugOptionsFromJson(Map<String, dynamic> json) {
   return _DebugOptions.fromJson(json);
 }
-
-/// @nodoc
-class _$DebugOptionsTearOff {
-  const _$DebugOptionsTearOff();
-
-  _DebugOptions call(
-      {bool showPerformanceOverlay = false,
-      bool debugShowMaterialGrid = false,
-      bool checkerboardRasterCacheImages = false,
-      bool checkerboardOffscreenLayers = false,
-      bool showSemanticsDebugger = false,
-      bool debugShowCheckedModeBanner = false}) {
-    return _DebugOptions(
-      showPerformanceOverlay: showPerformanceOverlay,
-      debugShowMaterialGrid: debugShowMaterialGrid,
-      checkerboardRasterCacheImages: checkerboardRasterCacheImages,
-      checkerboardOffscreenLayers: checkerboardOffscreenLayers,
-      showSemanticsDebugger: showSemanticsDebugger,
-      debugShowCheckedModeBanner: debugShowCheckedModeBanner,
-    );
-  }
-
-  DebugOptions fromJson(Map<String, Object?> json) {
-    return DebugOptions.fromJson(json);
-  }
-}
-
-/// @nodoc
-const $DebugOptions = _$DebugOptionsTearOff();
 
 /// @nodoc
 mixin _$DebugOptions {
@@ -466,11 +406,11 @@ class _$DebugOptionsCopyWithImpl<$Res> implements $DebugOptionsCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class _$DebugOptionsCopyWith<$Res>
+abstract class _$$_DebugOptionsCopyWith<$Res>
     implements $DebugOptionsCopyWith<$Res> {
-  factory _$DebugOptionsCopyWith(
-          _DebugOptions value, $Res Function(_DebugOptions) then) =
-      __$DebugOptionsCopyWithImpl<$Res>;
+  factory _$$_DebugOptionsCopyWith(
+          _$_DebugOptions value, $Res Function(_$_DebugOptions) then) =
+      __$$_DebugOptionsCopyWithImpl<$Res>;
   @override
   $Res call(
       {bool showPerformanceOverlay,
@@ -482,14 +422,15 @@ abstract class _$DebugOptionsCopyWith<$Res>
 }
 
 /// @nodoc
-class __$DebugOptionsCopyWithImpl<$Res> extends _$DebugOptionsCopyWithImpl<$Res>
-    implements _$DebugOptionsCopyWith<$Res> {
-  __$DebugOptionsCopyWithImpl(
-      _DebugOptions _value, $Res Function(_DebugOptions) _then)
-      : super(_value, (v) => _then(v as _DebugOptions));
+class __$$_DebugOptionsCopyWithImpl<$Res>
+    extends _$DebugOptionsCopyWithImpl<$Res>
+    implements _$$_DebugOptionsCopyWith<$Res> {
+  __$$_DebugOptionsCopyWithImpl(
+      _$_DebugOptions _value, $Res Function(_$_DebugOptions) _then)
+      : super(_value, (v) => _then(v as _$_DebugOptions));
 
   @override
-  _DebugOptions get _value => super._value as _DebugOptions;
+  _$_DebugOptions get _value => super._value as _$_DebugOptions;
 
   @override
   $Res call({
@@ -500,7 +441,7 @@ class __$DebugOptionsCopyWithImpl<$Res> extends _$DebugOptionsCopyWithImpl<$Res>
     Object? showSemanticsDebugger = freezed,
     Object? debugShowCheckedModeBanner = freezed,
   }) {
-    return _then(_DebugOptions(
+    return _then(_$_DebugOptions(
       showPerformanceOverlay: showPerformanceOverlay == freezed
           ? _value.showPerformanceOverlay
           : showPerformanceOverlay // ignore: cast_nullable_to_non_nullable
@@ -543,23 +484,23 @@ class _$_DebugOptions implements _DebugOptions {
   factory _$_DebugOptions.fromJson(Map<String, dynamic> json) =>
       _$$_DebugOptionsFromJson(json);
 
-  @JsonKey()
   @override
+  @JsonKey()
   final bool showPerformanceOverlay;
-  @JsonKey()
   @override
+  @JsonKey()
   final bool debugShowMaterialGrid;
-  @JsonKey()
   @override
+  @JsonKey()
   final bool checkerboardRasterCacheImages;
-  @JsonKey()
   @override
+  @JsonKey()
   final bool checkerboardOffscreenLayers;
-  @JsonKey()
   @override
+  @JsonKey()
   final bool showSemanticsDebugger;
-  @JsonKey()
   @override
+  @JsonKey()
   final bool debugShowCheckedModeBanner;
 
   @override
@@ -571,7 +512,7 @@ class _$_DebugOptions implements _DebugOptions {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _DebugOptions &&
+            other is _$_DebugOptions &&
             const DeepCollectionEquality()
                 .equals(other.showPerformanceOverlay, showPerformanceOverlay) &&
             const DeepCollectionEquality()
@@ -588,6 +529,7 @@ class _$_DebugOptions implements _DebugOptions {
                 other.debugShowCheckedModeBanner, debugShowCheckedModeBanner));
   }
 
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -600,8 +542,8 @@ class _$_DebugOptions implements _DebugOptions {
 
   @JsonKey(ignore: true)
   @override
-  _$DebugOptionsCopyWith<_DebugOptions> get copyWith =>
-      __$DebugOptionsCopyWithImpl<_DebugOptions>(this, _$identity);
+  _$$_DebugOptionsCopyWith<_$_DebugOptions> get copyWith =>
+      __$$_DebugOptionsCopyWithImpl<_$_DebugOptions>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
@@ -611,64 +553,37 @@ class _$_DebugOptions implements _DebugOptions {
 
 abstract class _DebugOptions implements DebugOptions {
   const factory _DebugOptions(
-      {bool showPerformanceOverlay,
-      bool debugShowMaterialGrid,
-      bool checkerboardRasterCacheImages,
-      bool checkerboardOffscreenLayers,
-      bool showSemanticsDebugger,
-      bool debugShowCheckedModeBanner}) = _$_DebugOptions;
+      {final bool showPerformanceOverlay,
+      final bool debugShowMaterialGrid,
+      final bool checkerboardRasterCacheImages,
+      final bool checkerboardOffscreenLayers,
+      final bool showSemanticsDebugger,
+      final bool debugShowCheckedModeBanner}) = _$_DebugOptions;
 
   factory _DebugOptions.fromJson(Map<String, dynamic> json) =
       _$_DebugOptions.fromJson;
 
   @override
-  bool get showPerformanceOverlay;
+  bool get showPerformanceOverlay => throw _privateConstructorUsedError;
   @override
-  bool get debugShowMaterialGrid;
+  bool get debugShowMaterialGrid => throw _privateConstructorUsedError;
   @override
-  bool get checkerboardRasterCacheImages;
+  bool get checkerboardRasterCacheImages => throw _privateConstructorUsedError;
   @override
-  bool get checkerboardOffscreenLayers;
+  bool get checkerboardOffscreenLayers => throw _privateConstructorUsedError;
   @override
-  bool get showSemanticsDebugger;
+  bool get showSemanticsDebugger => throw _privateConstructorUsedError;
   @override
-  bool get debugShowCheckedModeBanner;
+  bool get debugShowCheckedModeBanner => throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
-  _$DebugOptionsCopyWith<_DebugOptions> get copyWith =>
+  _$$_DebugOptionsCopyWith<_$_DebugOptions> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 DebugPaintOptions _$DebugPaintOptionsFromJson(Map<String, dynamic> json) {
   return _DebugPaintOptions.fromJson(json);
 }
-
-/// @nodoc
-class _$DebugPaintOptionsTearOff {
-  const _$DebugPaintOptionsTearOff();
-
-  _DebugPaintOptions call(
-      {bool debugPaintSizeEnabled = false,
-      bool debugPaintBaselinesEnabled = false,
-      bool debugPaintPointersEnabled = false,
-      bool debugPaintLayerBordersEnabled = false,
-      bool debugRepaintRainbowEnabled = false}) {
-    return _DebugPaintOptions(
-      debugPaintSizeEnabled: debugPaintSizeEnabled,
-      debugPaintBaselinesEnabled: debugPaintBaselinesEnabled,
-      debugPaintPointersEnabled: debugPaintPointersEnabled,
-      debugPaintLayerBordersEnabled: debugPaintLayerBordersEnabled,
-      debugRepaintRainbowEnabled: debugRepaintRainbowEnabled,
-    );
-  }
-
-  DebugPaintOptions fromJson(Map<String, Object?> json) {
-    return DebugPaintOptions.fromJson(json);
-  }
-}
-
-/// @nodoc
-const $DebugPaintOptions = _$DebugPaintOptionsTearOff();
 
 /// @nodoc
 mixin _$DebugPaintOptions {
@@ -740,11 +655,11 @@ class _$DebugPaintOptionsCopyWithImpl<$Res>
 }
 
 /// @nodoc
-abstract class _$DebugPaintOptionsCopyWith<$Res>
+abstract class _$$_DebugPaintOptionsCopyWith<$Res>
     implements $DebugPaintOptionsCopyWith<$Res> {
-  factory _$DebugPaintOptionsCopyWith(
-          _DebugPaintOptions value, $Res Function(_DebugPaintOptions) then) =
-      __$DebugPaintOptionsCopyWithImpl<$Res>;
+  factory _$$_DebugPaintOptionsCopyWith(_$_DebugPaintOptions value,
+          $Res Function(_$_DebugPaintOptions) then) =
+      __$$_DebugPaintOptionsCopyWithImpl<$Res>;
   @override
   $Res call(
       {bool debugPaintSizeEnabled,
@@ -755,15 +670,15 @@ abstract class _$DebugPaintOptionsCopyWith<$Res>
 }
 
 /// @nodoc
-class __$DebugPaintOptionsCopyWithImpl<$Res>
+class __$$_DebugPaintOptionsCopyWithImpl<$Res>
     extends _$DebugPaintOptionsCopyWithImpl<$Res>
-    implements _$DebugPaintOptionsCopyWith<$Res> {
-  __$DebugPaintOptionsCopyWithImpl(
-      _DebugPaintOptions _value, $Res Function(_DebugPaintOptions) _then)
-      : super(_value, (v) => _then(v as _DebugPaintOptions));
+    implements _$$_DebugPaintOptionsCopyWith<$Res> {
+  __$$_DebugPaintOptionsCopyWithImpl(
+      _$_DebugPaintOptions _value, $Res Function(_$_DebugPaintOptions) _then)
+      : super(_value, (v) => _then(v as _$_DebugPaintOptions));
 
   @override
-  _DebugPaintOptions get _value => super._value as _DebugPaintOptions;
+  _$_DebugPaintOptions get _value => super._value as _$_DebugPaintOptions;
 
   @override
   $Res call({
@@ -773,7 +688,7 @@ class __$DebugPaintOptionsCopyWithImpl<$Res>
     Object? debugPaintLayerBordersEnabled = freezed,
     Object? debugRepaintRainbowEnabled = freezed,
   }) {
-    return _then(_DebugPaintOptions(
+    return _then(_$_DebugPaintOptions(
       debugPaintSizeEnabled: debugPaintSizeEnabled == freezed
           ? _value.debugPaintSizeEnabled
           : debugPaintSizeEnabled // ignore: cast_nullable_to_non_nullable
@@ -811,20 +726,20 @@ class _$_DebugPaintOptions implements _DebugPaintOptions {
   factory _$_DebugPaintOptions.fromJson(Map<String, dynamic> json) =>
       _$$_DebugPaintOptionsFromJson(json);
 
-  @JsonKey()
   @override
+  @JsonKey()
   final bool debugPaintSizeEnabled;
-  @JsonKey()
   @override
+  @JsonKey()
   final bool debugPaintBaselinesEnabled;
-  @JsonKey()
   @override
+  @JsonKey()
   final bool debugPaintPointersEnabled;
-  @JsonKey()
   @override
+  @JsonKey()
   final bool debugPaintLayerBordersEnabled;
-  @JsonKey()
   @override
+  @JsonKey()
   final bool debugRepaintRainbowEnabled;
 
   @override
@@ -836,7 +751,7 @@ class _$_DebugPaintOptions implements _DebugPaintOptions {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _DebugPaintOptions &&
+            other is _$_DebugPaintOptions &&
             const DeepCollectionEquality()
                 .equals(other.debugPaintSizeEnabled, debugPaintSizeEnabled) &&
             const DeepCollectionEquality().equals(
@@ -850,6 +765,7 @@ class _$_DebugPaintOptions implements _DebugPaintOptions {
                 other.debugRepaintRainbowEnabled, debugRepaintRainbowEnabled));
   }
 
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -861,8 +777,9 @@ class _$_DebugPaintOptions implements _DebugPaintOptions {
 
   @JsonKey(ignore: true)
   @override
-  _$DebugPaintOptionsCopyWith<_DebugPaintOptions> get copyWith =>
-      __$DebugPaintOptionsCopyWithImpl<_DebugPaintOptions>(this, _$identity);
+  _$$_DebugPaintOptionsCopyWith<_$_DebugPaintOptions> get copyWith =>
+      __$$_DebugPaintOptionsCopyWithImpl<_$_DebugPaintOptions>(
+          this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
@@ -872,27 +789,27 @@ class _$_DebugPaintOptions implements _DebugPaintOptions {
 
 abstract class _DebugPaintOptions implements DebugPaintOptions {
   const factory _DebugPaintOptions(
-      {bool debugPaintSizeEnabled,
-      bool debugPaintBaselinesEnabled,
-      bool debugPaintPointersEnabled,
-      bool debugPaintLayerBordersEnabled,
-      bool debugRepaintRainbowEnabled}) = _$_DebugPaintOptions;
+      {final bool debugPaintSizeEnabled,
+      final bool debugPaintBaselinesEnabled,
+      final bool debugPaintPointersEnabled,
+      final bool debugPaintLayerBordersEnabled,
+      final bool debugRepaintRainbowEnabled}) = _$_DebugPaintOptions;
 
   factory _DebugPaintOptions.fromJson(Map<String, dynamic> json) =
       _$_DebugPaintOptions.fromJson;
 
   @override
-  bool get debugPaintSizeEnabled;
+  bool get debugPaintSizeEnabled => throw _privateConstructorUsedError;
   @override
-  bool get debugPaintBaselinesEnabled;
+  bool get debugPaintBaselinesEnabled => throw _privateConstructorUsedError;
   @override
-  bool get debugPaintPointersEnabled;
+  bool get debugPaintPointersEnabled => throw _privateConstructorUsedError;
   @override
-  bool get debugPaintLayerBordersEnabled;
+  bool get debugPaintLayerBordersEnabled => throw _privateConstructorUsedError;
   @override
-  bool get debugRepaintRainbowEnabled;
+  bool get debugRepaintRainbowEnabled => throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
-  _$DebugPaintOptionsCopyWith<_DebugPaintOptions> get copyWith =>
+  _$$_DebugPaintOptionsCopyWith<_$_DebugPaintOptions> get copyWith =>
       throw _privateConstructorUsedError;
 }

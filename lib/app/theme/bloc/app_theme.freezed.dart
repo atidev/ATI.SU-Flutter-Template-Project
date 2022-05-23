@@ -1,5 +1,6 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'app_theme.dart';
@@ -11,23 +12,7 @@ part of 'app_theme.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
-
-/// @nodoc
-class _$AppThemeTearOff {
-  const _$AppThemeTearOff();
-
-  _AppTheme call(
-      {required AppColorTheme colorTheme, required AppTextTheme textTheme}) {
-    return _AppTheme(
-      colorTheme: colorTheme,
-      textTheme: textTheme,
-    );
-  }
-}
-
-/// @nodoc
-const $AppTheme = _$AppThemeTearOff();
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 /// @nodoc
 mixin _$AppTheme {
@@ -73,28 +58,30 @@ class _$AppThemeCopyWithImpl<$Res> implements $AppThemeCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class _$AppThemeCopyWith<$Res> implements $AppThemeCopyWith<$Res> {
-  factory _$AppThemeCopyWith(_AppTheme value, $Res Function(_AppTheme) then) =
-      __$AppThemeCopyWithImpl<$Res>;
+abstract class _$$_AppThemeCopyWith<$Res> implements $AppThemeCopyWith<$Res> {
+  factory _$$_AppThemeCopyWith(
+          _$_AppTheme value, $Res Function(_$_AppTheme) then) =
+      __$$_AppThemeCopyWithImpl<$Res>;
   @override
   $Res call({AppColorTheme colorTheme, AppTextTheme textTheme});
 }
 
 /// @nodoc
-class __$AppThemeCopyWithImpl<$Res> extends _$AppThemeCopyWithImpl<$Res>
-    implements _$AppThemeCopyWith<$Res> {
-  __$AppThemeCopyWithImpl(_AppTheme _value, $Res Function(_AppTheme) _then)
-      : super(_value, (v) => _then(v as _AppTheme));
+class __$$_AppThemeCopyWithImpl<$Res> extends _$AppThemeCopyWithImpl<$Res>
+    implements _$$_AppThemeCopyWith<$Res> {
+  __$$_AppThemeCopyWithImpl(
+      _$_AppTheme _value, $Res Function(_$_AppTheme) _then)
+      : super(_value, (v) => _then(v as _$_AppTheme));
 
   @override
-  _AppTheme get _value => super._value as _AppTheme;
+  _$_AppTheme get _value => super._value as _$_AppTheme;
 
   @override
   $Res call({
     Object? colorTheme = freezed,
     Object? textTheme = freezed,
   }) {
-    return _then(_AppTheme(
+    return _then(_$_AppTheme(
       colorTheme: colorTheme == freezed
           ? _value.colorTheme
           : colorTheme // ignore: cast_nullable_to_non_nullable
@@ -126,7 +113,7 @@ class _$_AppTheme implements _AppTheme {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _AppTheme &&
+            other is _$_AppTheme &&
             const DeepCollectionEquality()
                 .equals(other.colorTheme, colorTheme) &&
             const DeepCollectionEquality().equals(other.textTheme, textTheme));
@@ -140,40 +127,24 @@ class _$_AppTheme implements _AppTheme {
 
   @JsonKey(ignore: true)
   @override
-  _$AppThemeCopyWith<_AppTheme> get copyWith =>
-      __$AppThemeCopyWithImpl<_AppTheme>(this, _$identity);
+  _$$_AppThemeCopyWith<_$_AppTheme> get copyWith =>
+      __$$_AppThemeCopyWithImpl<_$_AppTheme>(this, _$identity);
 }
 
 abstract class _AppTheme implements AppTheme {
   const factory _AppTheme(
-      {required AppColorTheme colorTheme,
-      required AppTextTheme textTheme}) = _$_AppTheme;
+      {required final AppColorTheme colorTheme,
+      required final AppTextTheme textTheme}) = _$_AppTheme;
 
   @override
-  AppColorTheme get colorTheme;
+  AppColorTheme get colorTheme => throw _privateConstructorUsedError;
   @override
-  AppTextTheme get textTheme;
+  AppTextTheme get textTheme => throw _privateConstructorUsedError;
   @override
   @JsonKey(ignore: true)
-  _$AppThemeCopyWith<_AppTheme> get copyWith =>
+  _$$_AppThemeCopyWith<_$_AppTheme> get copyWith =>
       throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class _$AppThemeEventTearOff {
-  const _$AppThemeEventTearOff();
-
-  AppThemeEventSetDarkTheme setDarkTheme() {
-    return const AppThemeEventSetDarkTheme();
-  }
-
-  AppThemeEventSetLightTheme setLightTheme() {
-    return const AppThemeEventSetLightTheme();
-  }
-}
-
-/// @nodoc
-const $AppThemeEvent = _$AppThemeEventTearOff();
 
 /// @nodoc
 mixin _$AppThemeEvent {
@@ -235,23 +206,24 @@ class _$AppThemeEventCopyWithImpl<$Res>
 }
 
 /// @nodoc
-abstract class $AppThemeEventSetDarkThemeCopyWith<$Res> {
-  factory $AppThemeEventSetDarkThemeCopyWith(AppThemeEventSetDarkTheme value,
-          $Res Function(AppThemeEventSetDarkTheme) then) =
-      _$AppThemeEventSetDarkThemeCopyWithImpl<$Res>;
+abstract class _$$AppThemeEventSetDarkThemeCopyWith<$Res> {
+  factory _$$AppThemeEventSetDarkThemeCopyWith(
+          _$AppThemeEventSetDarkTheme value,
+          $Res Function(_$AppThemeEventSetDarkTheme) then) =
+      __$$AppThemeEventSetDarkThemeCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$AppThemeEventSetDarkThemeCopyWithImpl<$Res>
+class __$$AppThemeEventSetDarkThemeCopyWithImpl<$Res>
     extends _$AppThemeEventCopyWithImpl<$Res>
-    implements $AppThemeEventSetDarkThemeCopyWith<$Res> {
-  _$AppThemeEventSetDarkThemeCopyWithImpl(AppThemeEventSetDarkTheme _value,
-      $Res Function(AppThemeEventSetDarkTheme) _then)
-      : super(_value, (v) => _then(v as AppThemeEventSetDarkTheme));
+    implements _$$AppThemeEventSetDarkThemeCopyWith<$Res> {
+  __$$AppThemeEventSetDarkThemeCopyWithImpl(_$AppThemeEventSetDarkTheme _value,
+      $Res Function(_$AppThemeEventSetDarkTheme) _then)
+      : super(_value, (v) => _then(v as _$AppThemeEventSetDarkTheme));
 
   @override
-  AppThemeEventSetDarkTheme get _value =>
-      super._value as AppThemeEventSetDarkTheme;
+  _$AppThemeEventSetDarkTheme get _value =>
+      super._value as _$AppThemeEventSetDarkTheme;
 }
 
 /// @nodoc
@@ -268,7 +240,7 @@ class _$AppThemeEventSetDarkTheme implements AppThemeEventSetDarkTheme {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is AppThemeEventSetDarkTheme);
+            other is _$AppThemeEventSetDarkTheme);
   }
 
   @override
@@ -342,23 +314,25 @@ abstract class AppThemeEventSetDarkTheme implements AppThemeEvent {
 }
 
 /// @nodoc
-abstract class $AppThemeEventSetLightThemeCopyWith<$Res> {
-  factory $AppThemeEventSetLightThemeCopyWith(AppThemeEventSetLightTheme value,
-          $Res Function(AppThemeEventSetLightTheme) then) =
-      _$AppThemeEventSetLightThemeCopyWithImpl<$Res>;
+abstract class _$$AppThemeEventSetLightThemeCopyWith<$Res> {
+  factory _$$AppThemeEventSetLightThemeCopyWith(
+          _$AppThemeEventSetLightTheme value,
+          $Res Function(_$AppThemeEventSetLightTheme) then) =
+      __$$AppThemeEventSetLightThemeCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$AppThemeEventSetLightThemeCopyWithImpl<$Res>
+class __$$AppThemeEventSetLightThemeCopyWithImpl<$Res>
     extends _$AppThemeEventCopyWithImpl<$Res>
-    implements $AppThemeEventSetLightThemeCopyWith<$Res> {
-  _$AppThemeEventSetLightThemeCopyWithImpl(AppThemeEventSetLightTheme _value,
-      $Res Function(AppThemeEventSetLightTheme) _then)
-      : super(_value, (v) => _then(v as AppThemeEventSetLightTheme));
+    implements _$$AppThemeEventSetLightThemeCopyWith<$Res> {
+  __$$AppThemeEventSetLightThemeCopyWithImpl(
+      _$AppThemeEventSetLightTheme _value,
+      $Res Function(_$AppThemeEventSetLightTheme) _then)
+      : super(_value, (v) => _then(v as _$AppThemeEventSetLightTheme));
 
   @override
-  AppThemeEventSetLightTheme get _value =>
-      super._value as AppThemeEventSetLightTheme;
+  _$AppThemeEventSetLightTheme get _value =>
+      super._value as _$AppThemeEventSetLightTheme;
 }
 
 /// @nodoc
@@ -375,7 +349,7 @@ class _$AppThemeEventSetLightTheme implements AppThemeEventSetLightTheme {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is AppThemeEventSetLightTheme);
+            other is _$AppThemeEventSetLightTheme);
   }
 
   @override

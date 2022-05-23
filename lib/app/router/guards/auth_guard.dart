@@ -23,4 +23,7 @@ class AuthGuard extends AutoRedirectGuard {
       resolver.next();
     }
   }
+
+  @override
+  Future<bool> canNavigate(RouteMatch route) async => isAuthorized();
 }
